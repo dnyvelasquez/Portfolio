@@ -54,7 +54,7 @@ const Home = () => {
                     </p>
                     <a 
                         className="pl-4 font-semibold" 
-                        href="/"
+                        href="https://dnyvelasquez.github.io/CMTS-Scripter/"
                         target="_blank" rel="noopener noreferrer"
                         onMouseOver={() => {setCmtssHidden(false)}}
                         onMouseLeave={() => {setCmtssHidden(true)}}
