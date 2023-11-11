@@ -1,5 +1,4 @@
 import Layout from "../../Components/Layout";
-import { useState } from "react";
 import foto1 from '../../Assets/foto1.jpg'
 import logoInstagram from '../../Assets/icons8-instagram.svg'
 import logoGithub from '../../Assets/icons8-github.svg'
@@ -13,9 +12,6 @@ import logoJavascript from '../../Assets/icons8-javascript.svg'
 import logoGoogleSites from '../../Assets/icons8-google-sites.svg'
 
 const Home = () => {
-
-    const [isbbyodaHidden, setbbyodaHidden] = useState(true)
-    const [iscmtssHidden, setCmtssHidden] = useState(true)
 
     return (
       <Layout>
@@ -44,24 +40,30 @@ const Home = () => {
                         className="pl-4 font-semibold" 
                         href="https://dnyvelasquez.github.io/babyyoda/"
                         target="_blank" rel="noopener noreferrer"
-                        onMouseOver={() => {setbbyodaHidden(false)}}
-                        onMouseLeave={() => {setbbyodaHidden(true)}}
                     >
                         Baby Yoda Game
                     </a>
-                    <p className={`pl-4 ${isbbyodaHidden ? 'hidden' : ''} text-slate-200 ml-4`}>
+                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
                         A game made with pure CSS
                     </p>
                     <a 
                         className="pl-4 font-semibold" 
                         href="https://dnyvelasquez.github.io/CMTS-Scripter/"
                         target="_blank" rel="noopener noreferrer"
-                        onMouseOver={() => {setCmtssHidden(false)}}
-                        onMouseLeave={() => {setCmtssHidden(true)}}
                     >
                         CMTS-Scripter
                     </a>
-                    <p className={`pl-4 ${iscmtssHidden ? 'hidden' : ''} text-slate-200 ml-4`}>
+                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
+                        A project made with React.JS, Vite and TailwinCSS
+                    </p>
+                    <a 
+                        className="pl-4 font-semibold" 
+                        href="https://dnyvelasquez.github.io/dv-shopp/"
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        DV-Shopp (ecomerce)
+                    </a>
+                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
                 </div>
