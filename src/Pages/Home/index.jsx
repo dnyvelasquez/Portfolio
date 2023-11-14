@@ -15,17 +15,17 @@ const Home = () => {
 
     return (
       <Layout>
-        <div className="bg-slate-400 h-screen w-full">
-            <div className="flex items-center">
+        <div className="bg-slate-400 sm:h-screen w-full">
+            <div className="flex flex-col-reverse items-center sm:flex-row">
                 <div className="flex flex-col items-center h-full w-full">
-                    <h2 className="font-bold text-6xl text-slate-200">
+                    <h2 className="font-bold text-6xl text-slate-200 text-center px-8">
                         Daniel Velásquez
                     </h2>
-                    <h3 className="font-bold text-4xl text-slate-300">
+                    <h3 className="font-bold text-4xl text-slate-300 text-center">
                         Frontend Developer
                     </h3>
                 </div>
-                <figure className="my-10 mr-20">
+                <figure className="my-10 mr-0 sm:mr-20">
                     <img 
                         src={foto1} 
                         alt="foto de Daniel Velásquez"
@@ -33,44 +33,44 @@ const Home = () => {
                     />
                 </figure>
             </div>
-            <div className="flex justify-around m-10 gap-2">
-                <div className="flex flex-col w-1/4">
-                    <h3 className="font-bold text-2xl">Projects</h3>
+            <div className="flex flex-col sm:flex-row sm:justify-around sm:items-start items-center m-10 sm:gap-2">
+                <div className="flex flex-col sm:w-1/4 w-full mb-4">
+                    <h3 className="font-bold text-2xl text-center sm:text-left">Projects</h3>
                     <a 
-                        className="pl-4 font-semibold" 
+                        className="pl-4 font-semibold text-center sm:text-left" 
                         href="https://dnyvelasquez.github.io/babyyoda/"
                         target="_blank" rel="noopener noreferrer"
                     >
                         Baby Yoda Game
                     </a>
-                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
+                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
                         A game made with pure CSS
                     </p>
                     <a 
-                        className="pl-4 font-semibold" 
+                        className="pl-4 font-semibold text-center sm:text-left" 
                         href="https://dnyvelasquez.github.io/CMTS-Scripter/"
                         target="_blank" rel="noopener noreferrer"
                     >
                         CMTS-Scripter
                     </a>
-                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
+                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
                     <a 
-                        className="pl-4 font-semibold" 
+                        className="pl-4 font-semibold text-center sm:text-left" 
                         href="https://dnyvelasquez.github.io/dv-shopp/"
                         target="_blank" rel="noopener noreferrer"
                     >
                         DV-Shopp (ecomerce)
                     </a>
-                    <p className={`pl-4 text-slate-200 ml-4 text-sm`}>
+                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
                 </div>
-                <div className="flex flex-col w-1/4">
+                <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
                     <h3 className="font-bold text-2xl">Contact</h3>                    
                     <a 
-                        className="pl-4 font-semibold flex" 
+                        className="pl-4 font-semibold flex  self-center sm:self-start" 
                         href="https://github.com/dnyvelasquez"
                         target="_blank" rel="noopener noreferrer"
                     >
@@ -82,7 +82,7 @@ const Home = () => {
                         @dnyvelasquez
                     </a>
                     <a 
-                        className="pl-4 font-semibold flex" 
+                        className="pl-4 font-semibold flex  self-center sm:self-start" 
                         href="https://intagram.com/dny.velasquez"
                         target="_blank" rel="noopener noreferrer"
                     >
@@ -94,19 +94,19 @@ const Home = () => {
                         @dny.velasquez
                     </a>
                     <a 
-                        className="pl-4 font-semibold flex" 
+                        className="pl-4 font-semibold flex  self-center sm:self-start" 
                         href="https://facebook.com/dannyelhito"
                         target="_blank" rel="noopener noreferrer"
                     >
                         <img 
                             src={logoFacebook} 
                             alt="Logo Facebook" 
-                            className="h-6 w-6 mr-1"
+                            className="h-6 w-6 mr-1 text-center"
                         />
                         @dannyelhito
                     </a>
                     <a 
-                        className="pl-4 font-semibold flex" 
+                        className="pl-4 font-semibold flex self-center sm:self-start" 
                         href="/"
                         target="_blank" rel="noopener noreferrer"
                     >
@@ -118,7 +118,7 @@ const Home = () => {
                         +57 3004439348
                     </a>
                     <a 
-                        className="pl-4 font-semibold flex" 
+                        className="pl-4 font-semibold flex self-center sm:self-start" 
                         href="mailto:dny.velasquez@gmail.com"
                         target="_blank" rel="noopener noreferrer"
                     >
@@ -130,9 +130,9 @@ const Home = () => {
                         dny.velasquez@gmail.com
                     </a>
                 </div>
-                <div className="flex flex-col w-1/4">
+                <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
                     <h3 className="font-bold text-2xl">About</h3>
-                    <p className="pl-4 font-semibold flex">
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoGoogleSites} 
                             alt="Logo Javascript" 
@@ -140,7 +140,7 @@ const Home = () => {
                         />
                         IT engineer
                     </p>
-                    <p className="pl-4 font-semibold flex">
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoJavascript} 
                             alt="Logo Javascript" 
@@ -148,7 +148,7 @@ const Home = () => {
                         />
                         Javascript
                     </p>
-                    <p className="pl-4 font-semibold flex">
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoHtml} 
                             alt="Logo HTML" 
@@ -156,7 +156,7 @@ const Home = () => {
                         />
                         HTML
                     </p>
-                    <p className="pl-4 font-semibold flex">
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoCss} 
                             alt="Logo CSS" 
@@ -164,11 +164,11 @@ const Home = () => {
                         />
                         CSS
                     </p>
-                    <p className="pl-4 font-semibold flex">
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoReact} 
                             alt="Logo React.JS" 
-                            className="h-6 w-6 mr-1"
+                            className="h-6 w-6 mr-1 "
                         />
                         React.JS
                     </p>
