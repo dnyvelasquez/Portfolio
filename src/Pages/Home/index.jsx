@@ -15,7 +15,7 @@ const Home = () => {
 
     return (
       <Layout>
-        <div className="bg-slate-400 sm:h-screen w-full">
+        <div className="bg-slate-400 h-full w-full">
             <div className="flex flex-col-reverse items-center sm:flex-row">
                 <div className="flex flex-col items-center h-full w-full">
                     <h2 className="font-bold text-6xl text-slate-200 text-center px-8">
@@ -28,7 +28,7 @@ const Home = () => {
                 <figure className="my-10 mr-0 sm:mr-20">
                     <img 
                         src={foto1} 
-                        alt="foto de Daniel Velásquez"
+                        alt="Foto de Daniel Velásquez"
                         className="h-full w-40 rounded-full border-2 border-separate shadow-md"
                     />
                 </figure>
