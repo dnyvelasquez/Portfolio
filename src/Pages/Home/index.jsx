@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "../../Components/Layout";
 import foto1 from '../../Assets/foto1.jpg'
 import logoInstagram from '../../Assets/icons8-instagram.svg'
@@ -15,7 +16,7 @@ const Home = () => {
 
     return (
       <Layout>
-        <div className="bg-slate-400 h-full w-full">
+        <main className="bg-slate-400 h-full w-full">
             <div className="flex flex-col-reverse items-center sm:flex-row">
                 <div className="flex flex-col items-center h-full w-full">
                     <h2 className="font-bold text-6xl text-slate-200 text-center px-8">
@@ -33,9 +34,9 @@ const Home = () => {
                     />
                 </figure>
             </div>
-            <div className="flex flex-col sm:flex-row sm:justify-around sm:items-start items-center m-10 sm:gap-2">
+            <div className="flex flex-col sm:flex-row sm:justify-around sm:items-start items-center m-10">
                 <div className="flex flex-col sm:w-1/4 w-full mb-4">
-                    <h3 className="font-bold text-2xl text-center sm:text-left">Projects</h3>
+                    <h3 className="font-bold text-2xl text-center sm:text-left mb-4">Projects</h3>
                     <a 
                         className="pl-4 font-semibold text-center sm:text-left" 
                         href="https://dnyvelasquez.github.io/babyyoda/"
@@ -43,7 +44,7 @@ const Home = () => {
                     >
                         Baby Yoda Game
                     </a>
-                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
+                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
                         A game made with pure CSS
                     </p>
                     <a 
@@ -53,7 +54,7 @@ const Home = () => {
                     >
                         CMTS-Scripter
                     </a>
-                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
+                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
                     <a 
@@ -63,12 +64,12 @@ const Home = () => {
                     >
                         DV-Shopp (ecomerce)
                     </a>
-                    <p className='pl-4 text-slate-200 ml-4 text-sm text-center sm:text-left'>
+                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
                 </div>
                 <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
-                    <h3 className="font-bold text-2xl">Contact</h3>                    
+                    <h3 className="font-bold text-2xl mb-4">Contact</h3>                    
                     <a 
                         className="pl-4 font-semibold flex  self-center sm:self-start" 
                         href="https://github.com/dnyvelasquez"
@@ -131,11 +132,11 @@ const Home = () => {
                     </a>
                 </div>
                 <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
-                    <h3 className="font-bold text-2xl">About</h3>
+                    <h3 className="font-bold text-2xl mb-4">About</h3>
                     <p className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoGoogleSites} 
-                            alt="Logo Javascript" 
+                            alt="Logo Google Sites" 
                             className="h-6 w-6 mr-1"
                         />
                         IT engineer
@@ -172,9 +173,17 @@ const Home = () => {
                         />
                         React.JS
                     </p>
+                    <Link to={'/Portfolio/courses'} className="pl-4 font-semibold flex self-center sm:self-start">
+                        <img 
+                            src={logoGoogleSites} 
+                            alt="Logo Google Sites" 
+                            className="h-6 w-6 mr-1 "
+                        />
+                        View development courses
+                    </Link>
                 </div>
             </div>
-        </div>
+        </main>
       </Layout>
     )
   }
