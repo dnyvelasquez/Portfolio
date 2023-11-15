@@ -2,12 +2,12 @@ import { useContext } from "react";
 import { Context } from "../../Context";
 
 
-const DeepHtmlCssCourses = () => {
+const DeepJavascriptCourses = () => {
 
     const context = useContext(Context);
 
     return (
-        <div className="border-2 p-2 rounded-lg">
+        <div className="border-2 p-2 rounded-lg h-full">
         <h2 className="font-bold cursor-pointer" onClick={() => {
             context.openModalDiploma();
             context.setDiplomaName('HTML y CSS a profundidad - Deep HTML and CSS');
@@ -53,7 +53,7 @@ const DeepHtmlCssCourses = () => {
                         context.setDiplomaName('Diseño para programadores - Design for developers');
                         context.setDiplomaImage('diseno-para-programadores.png');
                     }}>
-                    Diseño paara programadores *</p>
+                    Diseño para programadores *</p>
                 <p>- Design for developers -</p>
             </li>
             <li>
@@ -170,4 +170,4 @@ const DeepHtmlCssCourses = () => {
 );
 }
 
-export default DeepHtmlCssCourses;
+export default DeepJavascriptCourses;
