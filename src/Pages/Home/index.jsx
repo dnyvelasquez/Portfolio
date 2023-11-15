@@ -85,7 +85,7 @@ const Home = () => {
                     </a>
                     <a 
                         className="pl-4 font-semibold flex  self-center sm:self-start" 
-                        href="https://github.com/dnyvelasquez"
+                        href="https://linkedin.com/in/daniel-velasquez-7a19bb1b8"
                         target="_blank" rel="noopener noreferrer"
                     >
                         <img 
@@ -93,7 +93,7 @@ const Home = () => {
                             alt="Logo LinkedIn" 
                             className="h-6 w-6 mr-1"
                         />
-                        linkedin.com/in/daniel-velasquez-7a19bb1b8
+                        daniel-velasquez-7a19bb1b8
                     </a>
                     <a 
                         className="pl-4 font-semibold flex  self-center sm:self-start" 
