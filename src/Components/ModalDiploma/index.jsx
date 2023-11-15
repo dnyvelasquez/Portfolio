@@ -17,10 +17,10 @@ const ModalDiploma = () => {
                 <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                   <div className="flex flex-col items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t relative">
                     <XMarkIcon 
-                        className="h-6 w-6 text-black cursor-pointer absolute right-8 top-14"
+                        className="h-6 w-6 text-black font-bold cursor-pointer absolute right-4 top-4"
                         onClick={() => context.closeModalDiploma()}
                     />
-                    <h3 className="text-xl font-semibold">
+                    <h3 className="text-xl font-semibold w-11/12 pb-2">
                       {context.diplomaName}
                     </h3>
                     <figure>

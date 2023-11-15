@@ -11,6 +11,7 @@ import logoCss from '../../Assets/icons8-css.svg'
 import logoHtml from '../../Assets/icons8-html.svg'
 import logoJavascript from '../../Assets/icons8-javascript.svg'
 import logoGoogleSites from '../../Assets/icons8-google-sites.svg'
+import logoLinkedIn from '../../Assets/icons8-linkedin.svg'
 
 const Home = () => {
 
@@ -81,6 +82,18 @@ const Home = () => {
                             className="h-6 w-6 mr-1"
                         />
                         @dnyvelasquez
+                    </a>
+                    <a 
+                        className="pl-4 font-semibold flex  self-center sm:self-start" 
+                        href="https://github.com/dnyvelasquez"
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        <img 
+                            src={logoLinkedIn} 
+                            alt="Logo LinkedIn" 
+                            className="h-6 w-6 mr-1"
+                        />
+                        linkedin.com/in/daniel-velasquez-7a19bb1b8
                     </a>
                     <a 
                         className="pl-4 font-semibold flex  self-center sm:self-start" 
