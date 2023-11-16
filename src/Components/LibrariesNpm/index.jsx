@@ -5,7 +5,7 @@ const LibrariesNpm = () => {
   const context = useContext(Context);
 
   return (
-    <div className="course-card border-2 p-2 rounded-lg w-96">
+    <div className="course-card border-2 p-2 rounded-lg">
       <h2 className="font-extrabold text-center">PLATZI</h2>
       <h3
         className="font-bold text-center"
@@ -18,7 +18,7 @@ const LibrariesNpm = () => {
         Librerías y dependencias de Javascript con NPM
       </h3>
       <h3 className="font-semibold text-center">Javascript libraries and dependencies with NPM</h3>
-      <div className="courses-container overflow-y-auto">
+      <div className="courses-container--2 overflow-y-auto">
         <ul className="mt-2 ml-2">
           <li>
             <p
@@ -33,7 +33,7 @@ const LibrariesNpm = () => {
             >
               Frameworks y arquitecturas frontend *
             </p>
-            <p>- Frontend frameworks and architectures -</p>
+            <p className="pl-2 font-semibold text-sm">Frontend frameworks and architectures</p>
           </li>
           <li>
             <p
@@ -48,7 +48,7 @@ const LibrariesNpm = () => {
             >
               Manipulación del DOM *
             </p>
-            <p>- DOM handling -</p>
+            <p className="pl-2 font-semibold text-sm">DOM handling</p>
           </li>
           <li>
             <p
@@ -63,7 +63,7 @@ const LibrariesNpm = () => {
             >
               Introducción empaquetadores web *
             </p>
-            <p>- Web packers introduction -</p>
+            <p className="pl-2 font-semibold text-sm">Web packers introduction</p>
           </li>
           <li>
             <p
@@ -78,7 +78,7 @@ const LibrariesNpm = () => {
             >
               Frameworks y librerías de Javascript *
             </p>
-            <p>- Javascript frameworks and libraries -</p>
+            <p className="pl-2 font-semibold text-sm">Javascript frameworks and libraries</p>
           </li>
           <li>
             <p
@@ -93,7 +93,7 @@ const LibrariesNpm = () => {
             >
               NPM *
             </p>
-            <p>- NPM -</p>
+            <p className="pl-2 font-semibold text-sm">NPM</p>
           </li>
           <li>
             <p
@@ -108,7 +108,7 @@ const LibrariesNpm = () => {
             >
               Programación reactiva con RXJS *
             </p>
-            <p>- Reactive programming with RXJS -</p>
+            <p className="pl-2 font-semibold text-sm">Reactive programming with RXJS</p>
           </li>
           <li>
             <p
@@ -123,7 +123,7 @@ const LibrariesNpm = () => {
             >
               SolidJS *
             </p>
-            <p>- SolidJS -</p>
+            <p className="pl-2 font-semibold text-sm">SolidJS</p>
           </li>
           <li>
             <p
@@ -138,7 +138,7 @@ const LibrariesNpm = () => {
             >
               SPA con Vanilla Javascript *
             </p>
-            <p>- SPA with Vanilla Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">SPA with Vanilla Javascript</p>
           </li>
           <li>
             <p
@@ -153,7 +153,7 @@ const LibrariesNpm = () => {
             >
               Svelte *
             </p>
-            <p>- Svelte -</p>
+            <p className="pl-2 font-semibold text-sm">Svelte</p>
           </li>
           <li>
             <p
@@ -168,7 +168,7 @@ const LibrariesNpm = () => {
             >
               Vite.JS *
             </p>
-            <p>- Vite.JS -</p>
+            <p className="pl-2 font-semibold text-sm">Vite.JS</p>
           </li>
           <li>
             <p
@@ -183,7 +183,7 @@ const LibrariesNpm = () => {
             >
               Webpack *
             </p>
-            <p>- Webpack -</p>
+            <p className="pl-2 font-semibold text-sm">Webpack</p>
           </li>
           <li>
             <p
@@ -198,7 +198,7 @@ const LibrariesNpm = () => {
             >
               Optimización web *
             </p>
-            <p>- Web performance -</p>
+            <p className="pl-2 font-semibold text-sm">Web performance</p>
           </li>
         </ul>
       </div>

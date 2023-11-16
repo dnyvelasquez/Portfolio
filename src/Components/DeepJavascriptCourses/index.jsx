@@ -33,7 +33,7 @@ const DeepHtmlCssCourses = () => {
             >
               Animaciones con CSS práctico *
             </p>
-            <p>- Practic animations with CSS -</p>
+            <p className="pl-2 font-semibold text-sm">Practic animations with CSS</p>
           </li>
           <li>
             <p
@@ -48,7 +48,7 @@ const DeepHtmlCssCourses = () => {
             >
               API REST con Javascript *
             </p>
-            <p>- API REST with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">API REST with Javascript</p>
           </li>
           <li>
             <p
@@ -63,7 +63,7 @@ const DeepHtmlCssCourses = () => {
             >
               API REST con Javascript práctico *
             </p>
-            <p>- Practic API REST with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Practic API REST with Javascript</p>
           </li>
           <li>
             <p
@@ -78,7 +78,7 @@ const DeepHtmlCssCourses = () => {
             >
               API REST con Javascript profesional *
             </p>
-            <p>- Professional API REST with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Professional API REST with Javascript</p>
           </li>
           <li>
             <p
@@ -93,7 +93,7 @@ const DeepHtmlCssCourses = () => {
             >
               Manipulación de arrays con Javascript *
             </p>
-            <p>- Array handling with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Array handling with Javascript</p>
           </li>
           <li>
             <p
@@ -108,7 +108,7 @@ const DeepHtmlCssCourses = () => {
             >
               Asincronismo con Javascript *
             </p>
-            <p>- Asyncronism with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Asyncronism with Javascript</p>
           </li>
           <li>
             <p
@@ -123,7 +123,7 @@ const DeepHtmlCssCourses = () => {
             >
               Básico de Javascript *
             </p>
-            <p>- Basics Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Basics Javascript</p>
           </li>
           <li>
             <p
@@ -138,7 +138,7 @@ const DeepHtmlCssCourses = () => {
             >
               Complejidad algorítmica con Javascript *
             </p>
-            <p>- Algorithmic complexity with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Algorithmic complexity with Javascript</p>
           </li>
           <li>
             <p
@@ -153,7 +153,7 @@ const DeepHtmlCssCourses = () => {
             >
               Debugging con Chrome Devtools *
             </p>
-            <p>- Debugging with Chrome Devtools -</p>
+            <p className="pl-2 font-semibold text-sm">Debugging with Chrome Devtools</p>
           </li>
           <li>
             <p
@@ -166,7 +166,7 @@ const DeepHtmlCssCourses = () => {
             >
               EcmaScript *
             </p>
-            <p>- EcmaScript -</p>
+            <p className="pl-2 font-semibold text-sm">EcmaScript</p>
           </li>
           <li>
             <p
@@ -181,7 +181,7 @@ const DeepHtmlCssCourses = () => {
             >
               Estructuras de datos con Javascript *
             </p>
-            <p>- Data structure with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Data structure with Javascript</p>
           </li>
           <li>
             <p
@@ -196,7 +196,7 @@ const DeepHtmlCssCourses = () => {
             >
               Clean code en Javascript *
             </p>
-            <p>- Javascript clean code -</p>
+            <p className="pl-2 font-semibold text-sm">Javascript clean code</p>
           </li>
           <li>
             <p
@@ -211,7 +211,7 @@ const DeepHtmlCssCourses = () => {
             >
               Closures y scope en Javascript *
             </p>
-            <p>- Javascript closures and scope -</p>
+            <p className="pl-2 font-semibold text-sm">Javascript closures and scope</p>
           </li>
           <li>
             <p
@@ -226,7 +226,7 @@ const DeepHtmlCssCourses = () => {
             >
               Javascript Engine (V8) y el Navigator *
             </p>
-            <p>- Javascript Engine (V8) and The Navigator -</p>
+            <p className="pl-2 font-semibold text-sm">Javascript Engine (V8) and The Navigator</p>
           </li>
           <li>
             <p
@@ -241,7 +241,7 @@ const DeepHtmlCssCourses = () => {
             >
               POO con Javascript básico *
             </p>
-            <p>- Basics OOP with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Basics OOP with Javascript</p>
           </li>
           <li>
             <p
@@ -256,7 +256,7 @@ const DeepHtmlCssCourses = () => {
             >
               POO con Javascript intermedio *
             </p>
-            <p>- Intermediate OOP with Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Intermediate OOP with Javascript</p>
           </li>
           <li>
             <p
@@ -271,7 +271,7 @@ const DeepHtmlCssCourses = () => {
             >
               Javascript práctico *
             </p>
-            <p>- Practic Javascript -</p>
+            <p className="pl-2 font-semibold text-sm">Practic Javascript</p>
           </li>
           <li>
             <p
@@ -288,7 +288,7 @@ const DeepHtmlCssCourses = () => {
             >
               Javascript: Matemáticas y estadística *
             </p>
-            <p>- Javascript: Math and estadistics -</p>
+            <p className="pl-2 font-semibold text-sm">Javascript: Math and estadistics</p>
           </li>
           <li>
             <p
@@ -303,7 +303,7 @@ const DeepHtmlCssCourses = () => {
             >
               Programación orientada a objetos *
             </p>
-            <p>- Oriented Objects Programation -</p>
+            <p className="pl-2 font-semibold text-sm">Oriented Objects Programming</p>
           </li>
         </ul>
       </div>

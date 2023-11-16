@@ -35,7 +35,7 @@ const DeepJavascriptCourses = () => {
             >
               Animaciones con CSS *
             </p>
-            <p>- Animations with CSS -</p>
+            <p className="pl-2 font-semibold text-sm">Animations with CSS</p>
           </li>
           <li>
             <p
@@ -48,7 +48,7 @@ const DeepJavascriptCourses = () => {
             >
               CSS grid básico *
             </p>
-            <p>- Basic CSS grid -</p>
+            <p className="pl-2 font-semibold text-sm">Basic CSS grid</p>
           </li>
           <li>
             <p
@@ -61,7 +61,7 @@ const DeepJavascriptCourses = () => {
             >
               CSS grid layout *
             </p>
-            <p>- CSS grid layout -</p>
+            <p className="pl-2 font-semibold text-sm">CSS grid layout</p>
           </li>
           <li>
             <p
@@ -76,7 +76,7 @@ const DeepJavascriptCourses = () => {
             >
               Diseño para programadores *
             </p>
-            <p>- Design for developers -</p>
+            <p className="pl-2 font-semibold text-sm">Design for developers</p>
           </li>
           <li>
             <p
@@ -91,7 +91,7 @@ const DeepJavascriptCourses = () => {
             >
               Diseño web con CSS, Grid y Flexbox *
             </p>
-            <p>- Web design with CSS, Grid and Flexbox -</p>
+            <p className="pl-2 font-semibold text-sm">Web design with CSS, Grid and Flexbox</p>
           </li>
           <li>
             <p
@@ -104,7 +104,7 @@ const DeepJavascriptCourses = () => {
             >
               Frontend developer *
             </p>
-            <p>- Frontend developer -</p>
+            <p className="pl-2 font-semibold text-sm">Frontend developer</p>
           </li>
           <li>
             <p
@@ -119,7 +119,7 @@ const DeepJavascriptCourses = () => {
             >
               Frontend developer práctico *
             </p>
-            <p>- Practic frontend developer -</p>
+            <p className="pl-2 font-semibold text-sm">Practic frontend developer</p>
           </li>
           <li>
             <p
@@ -134,7 +134,7 @@ const DeepJavascriptCourses = () => {
             >
               Definitivo de HTML y CSS *
             </p>
-            <p>- Definitive HTML and CSS -</p>
+            <p className="pl-2 font-semibold text-sm">Definitive HTML and CSS</p>
           </li>
           <li>
             <p
@@ -149,7 +149,7 @@ const DeepJavascriptCourses = () => {
             >
               Práctico de HTML y CSS *
             </p>
-            <p>- Practic HTML and CSS -</p>
+            <p className="pl-2 font-semibold text-sm">Practic HTML and CSS</p>
           </li>
           <li>
             <p
@@ -164,7 +164,7 @@ const DeepJavascriptCourses = () => {
             >
               Maquetación mobile first *
             </p>
-            <p>- Mobile first maketation -</p>
+            <p className="pl-2 font-semibold text-sm">Mobile first maketation</p>
           </li>
           <li>
             <p
@@ -177,7 +177,7 @@ const DeepJavascriptCourses = () => {
             >
               Maquetación CSS *
             </p>
-            <p>- CSS maketation -</p>
+            <p className="pl-2 font-semibold text-sm">CSS maketation</p>
           </li>
           <li>
             <p
@@ -192,7 +192,7 @@ const DeepJavascriptCourses = () => {
             >
               Preprocesadores CSS *
             </p>
-            <p>- CSS preprocessors -</p>
+            <p className="pl-2 font-semibold text-sm">CSS preprocessors</p>
           </li>
           <li>
             <p
@@ -205,7 +205,7 @@ const DeepJavascriptCourses = () => {
             >
               Fundamentos de SASS *
             </p>
-            <p>- SASS basics -</p>
+            <p className="pl-2 font-semibold text-sm">SASS basics</p>
           </li>
           <li>
             <p
@@ -218,7 +218,7 @@ const DeepJavascriptCourses = () => {
             >
               Sistemas de diseño *
             </p>
-            <p>- Design systems -</p>
+            <p className="pl-2 font-semibold text-sm">Design systems</p>
           </li>
           <li>
             <p
@@ -231,7 +231,7 @@ const DeepJavascriptCourses = () => {
             >
               Tailwind CSS *
             </p>
-            <p>- Tailwind CSS -</p>
+            <p className="pl-2 font-semibold text-sm">Tailwind CSS</p>
           </li>
           <li>
             <p
@@ -248,7 +248,7 @@ const DeepJavascriptCourses = () => {
             >
               Transformaciones y transiciones en CSS *
             </p>
-            <p>- CSS transformations and transitions -</p>
+            <p className="pl-2 font-semibold text-sm">CSS transformations and transitions</p>
           </li>
         </ul>
       </div>

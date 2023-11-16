@@ -33,7 +33,7 @@ const FrontendWithReactJS = () => {
             >
               React.JS *
             </p>
-            <p>- React.JS -</p>
+            <p className="pl-2 font-semibold text-sm">React.JS</p>
           </li>
           <li>
             <p
@@ -48,7 +48,7 @@ const FrontendWithReactJS = () => {
             >
               React.JS con Vite.JS y TailwindCSS *
             </p>
-            <p>- React.JS with Vite.JS and TailwindCSS -</p>
+            <p className="pl-2 font-semibold text-sm">React.JS with Vite.JS and TailwindCSS</p>
           </li>
         </ul>
       </div>

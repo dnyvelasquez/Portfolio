@@ -7,9 +7,14 @@
 }
 
 .course-card {
-    height: calc(100vh - 80px);    
+    height: calc(100vh - 80px); 
+    width: 20rem;   
 }
 
 .courses-container {
     height: calc(100vh - 200px); 
+}
+
+.courses-container--2 {
+    height: calc(100vh - 250px); 
 }
