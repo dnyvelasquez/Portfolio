@@ -5,3 +5,11 @@
 .nav-bar {
     background-color: #eff8f8;
 }
+
+.course-card {
+    height: calc(100vh - 80px);    
+}
+
+.courses-container {
+    height: calc(100vh - 200px); 
+}

@@ -22,7 +22,7 @@ export const ContextProvider = ({children}) => {
             diplomaImage, 
             setDiplomaImage,
         }}>
-            {children};
+            {children}
         </Context.Provider>    
 
     );

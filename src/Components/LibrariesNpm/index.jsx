@@ -5,19 +5,20 @@ const LibrariesNpm = () => {
   const context = useContext(Context);
 
   return (
-    <div className="border-2 p-2 rounded-lg h-96">
-      <h2
-        className="font-bold"
+    <div className="course-card border-2 p-2 rounded-lg w-96">
+      <h2 className="font-extrabold text-center">PLATZI</h2>
+      <h3
+        className="font-bold text-center"
         onClick={() => {
           // context.openModalDiploma();
           // context.setDiplomaName("Librerías y dependencias de Javascript con NPM - Javascript libraries and dependencies with NPM");
           // context.setDiplomaImage("librerias-dependencias-javascrip-npm.png");
         }}
       >
-        Platzi - Librerías y dependencias de Javascript con NPM
-      </h2>
-      <h2 className="font-semibold">- Platzi - Javascript libraries and dependencies with NPM -</h2>
-      <div className="h-3/4 overflow-y-auto">
+        Librerías y dependencias de Javascript con NPM
+      </h3>
+      <h3 className="font-semibold text-center">Javascript libraries and dependencies with NPM</h3>
+      <div className="courses-container overflow-y-auto">
         <ul className="mt-2 ml-2">
           <li>
             <p

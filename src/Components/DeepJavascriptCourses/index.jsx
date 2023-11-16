@@ -5,19 +5,20 @@ const DeepHtmlCssCourses = () => {
   const context = useContext(Context);
 
   return (
-    <div className="border-2 p-2 rounded-lg h-96">
-      <h2
-        className="font-bold cursor-pointer"
+    <div className="course-card border-2 p-2 rounded-lg w-96">
+      <h2 className="font-extrabold text-center">PLATZI</h2>
+      <h3
+        className="font-bold text-center cursor-pointer"
         onClick={() => {
           context.openModalDiploma();
           context.setDiplomaName("Javascript a profundidad - Deep Javascript");
           context.setDiplomaImage("javascript-profundidad.png");
         }}
       >
-        Platzi - Javascript a profundidad *
-      </h2>
-      <h2 className="font-semibold font-">- Platzi - Deep Javascript -</h2>
-      <div className="h-3/4 overflow-y-auto">
+        Javascript a profundidad *
+      </h3>
+      <h3 className="font-semibold text-center">Deep Javascript</h3>
+      <div className="courses-container overflow-y-auto">
         <ul className="mt-2 ml-2">
           <li>
             <p

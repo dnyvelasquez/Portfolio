@@ -1,5 +1,5 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import { ContextProvider } from '../../Context'
+import { ContextProvider } from '../../Context';
 import Home from '../Home';
 import Courses from '../Courses';
 import NavBar from '../../Components/NavBar';
@@ -27,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

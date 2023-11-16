@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
 import Layout from "../../Components/Layout";
-import foto1 from '../../Assets/foto1.jpg'
-import logoInstagram from '../../Assets/icons8-instagram.svg'
-import logoGithub from '../../Assets/icons8-github.svg'
-import logoFacebook from '../../Assets/icons8-facebook.svg'
-import logoPhone from '../../Assets/icons8-Phone.svg'
-import logoGmail from '../../Assets/icons8-Gmail.svg'
-import logoReact from '../../Assets/icons8-React.svg'
-import logoCss from '../../Assets/icons8-css.svg'
-import logoHtml from '../../Assets/icons8-html.svg'
-import logoJavascript from '../../Assets/icons8-javascript.svg'
-import logoGoogleSites from '../../Assets/icons8-google-sites.svg'
-import logoLinkedIn from '../../Assets/icons8-linkedin.svg'
+import foto1 from '../../Assets/foto1.jpg';
+import logoInstagram from '../../Assets/icons8-instagram.svg';
+import logoGithub from '../../Assets/icons8-github.svg';
+import logoFacebook from '../../Assets/icons8-facebook.svg';
+import logoPhone from '../../Assets/icons8-Phone.svg';
+import logoGmail from '../../Assets/icons8-Gmail.svg';
+import logoReact from '../../Assets/icons8-React.svg';
+import logoCss from '../../Assets/icons8-css.svg';
+import logoHtml from '../../Assets/icons8-html.svg';
+import logoJavascript from '../../Assets/icons8-javascript.svg';
+import logoGoogleSites from '../../Assets/icons8-google-sites.svg';
+import logoLinkedIn from '../../Assets/icons8-linkedin.svg';
 
 const Home = () => {
 
     return (
       <Layout>
-        <main className="bg-slate-400 h-full w-full">
+        <main className="bg-slate-400 w-full h-full">
             <div className="flex flex-col-reverse items-center sm:flex-row">
                 <div className="flex flex-col items-center h-full w-full">
                     <h2 className="font-bold text-6xl text-slate-200 text-center px-8">
@@ -182,7 +182,7 @@ const Home = () => {
                         <img 
                             src={logoReact} 
                             alt="Logo React.JS" 
-                            className="h-6 w-6 mr-1 "
+                            className="h-6 w-6 mr-1"
                         />
                         React.JS
                     </p>
@@ -190,7 +190,7 @@ const Home = () => {
                         <img 
                             src={logoGoogleSites} 
                             alt="Logo Google Sites" 
-                            className="h-6 w-6 mr-1 "
+                            className="h-6 w-6 mr-1"
                         />
                         View development courses
                     </Link>
