@@ -24,7 +24,7 @@ const ModalDiploma = () => {
                       {context.diplomaName}
                     </h3>
                     <figure>
-                        <img src={'../src/Assets/' + context.diplomaImage} alt="Diploma Image" />
+                        <img src={'https://raw.githubusercontent.com/dnyvelasquez/portfolioImages/master/' + context.diplomaImage} alt="Diploma Image" />
                     </figure>
                   </div>
                 </div>
