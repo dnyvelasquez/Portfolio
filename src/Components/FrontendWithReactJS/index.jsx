@@ -50,6 +50,21 @@ const FrontendWithReactJS = () => {
             </p>
             <p className="pl-2 font-semibold text-sm">React.JS with Vite.JS and TailwindCSS</p>
           </li>
+          <li>
+            <p
+              className="cursor-pointer"
+              onClick={() => {
+                context.openModalDiploma();
+                context.setDiplomaName(
+                  "Laboratorio React.JS - React.JS Lab"
+                );
+                context.setDiplomaImage("laboratorio-react.png");
+              }}
+            >
+              Laboratorio React.JS *
+            </p>
+            <p className="pl-2 font-semibold text-sm">React.JS Lab</p>
+          </li>
         </ul>
       </div>
       <p className="mt-4 font-bold text-xs">* Click to see the diploma</p>
