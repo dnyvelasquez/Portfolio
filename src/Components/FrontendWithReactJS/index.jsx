@@ -65,6 +65,21 @@ const FrontendWithReactJS = () => {
             </p>
             <p className="pl-2 font-semibold text-sm">React.JS Lab</p>
           </li>
+          <li>
+            <p
+              className="cursor-pointer"
+              onClick={() => {
+                context.openModalDiploma();
+                context.setDiplomaName(
+                  "React.JS: Patrones de render y composición - Render patterns and composition"
+                );
+                context.setDiplomaImage("reactjs-patrones-composicion.png");
+              }}
+            >
+              React.JS: Patrones de render y composición *
+            </p>
+            <p className="pl-2 font-semibold text-sm">React.JS: Render patterns and composition</p>
+          </li>
         </ul>
       </div>
       <p className="mt-4 font-bold text-xs">* Click to see the diploma</p>
