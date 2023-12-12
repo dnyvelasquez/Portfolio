@@ -68,6 +68,16 @@ const Home = () => {
                     <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
                         A project made with React.JS, Vite and TailwinCSS
                     </p>
+                    <a 
+                        className="pl-4 font-semibold text-center sm:text-left" 
+                        href="https://dnyvelasquez.github.io/todomachine/"
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        TODO Machine
+                    </a>
+                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
+                        A project made with React.JS (React hooks, Render hooks Custom hooks and others)
+                    </p>
                 </div>
                 <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
                     <h3 className="font-bold text-2xl mb-4">Contact</h3>                    
