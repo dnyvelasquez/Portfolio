@@ -80,6 +80,21 @@ const FrontendWithReactJS = () => {
             </p>
             <p className="pl-2 font-semibold text-sm">React.JS: Render patterns and composition</p>
           </li>
+          <li>
+            <p
+              className="cursor-pointer"
+              onClick={() => {
+                context.openModalDiploma();
+                context.setDiplomaName(
+                  "React.JS: Manejo profesional del estado - Professional state handling"
+                );
+                context.setDiplomaImage("reactjs-manejo-estado.png");
+              }}
+            >
+              React.JS: Manejo profesional del estado *
+            </p>
+            <p className="pl-2 font-semibold text-sm">React.JS: Professional state handling</p>
+          </li>
         </ul>
       </div>
       <p className="mt-4 font-bold text-xs">* Click to see the diploma</p>
