@@ -14,203 +14,114 @@ import logoJavascript from '../../Assets/icons8-javascript.svg';
 import logoGoogleSites from '../../Assets/icons8-google-sites.svg';
 import logoLinkedIn from '../../Assets/icons8-linkedin.svg';
 
+const projects = [
+  {
+    name: 'NFL Predictor',
+    url: 'https://dnyvelasquez.github.io/nfl-predictor/',
+    description: 'Recreational sports betting platform for football. Made with Angular and SupaBase conection.',
+  },
+  {
+    name: 'FIFA Predictor',
+    url: 'https://dnyvelasquez.github.io/fifa-predictor/',
+    description: 'Recreational sports betting platform for football. Made with Angular and SupaBase conection.',
+  },
+  {
+    name: 'CMTS-Scripter',
+    url: 'https://dnyvelasquez.github.io/CMTS-Scripter/',
+    description: 'Platform to generate configuration scripts for diferents brands of CMTS. Made with React.JS, Vite and TailwinCSS',
+  },
+  {
+    name: 'DV-Shopp (ecomerce)',
+    url: 'https://dnyvelasquez.github.io/dv-shopp/',
+    description: 'Ecomerce platform simulator. Made with React.JS, Vite and TailwinCSS',
+  },
+];
+
+const contacts = [
+  { logo: logoGithub, alt: 'Logo Github', label: '@dnyvelasquez', href: 'https://github.com/dnyvelasquez' },
+  { logo: logoLinkedIn, alt: 'Logo LinkedIn', label: 'daniel-velasquez-7a19bb1b8', href: 'https://linkedin.com/in/daniel-velasquez-7a19bb1b8' },
+  { logo: logoInstagram, alt: 'Logo Instagram', label: '@dny.velasquez', href: 'https://intagram.com/dny.velasquez' },
+  { logo: logoFacebook, alt: 'Logo Facebook', label: '@dannyelhito', href: 'https://facebook.com/dannyelhito' },
+  { logo: logoPhone, alt: 'Logo Phone', label: '+57 3004439348', href: 'tel:+573004439348' },
+  { logo: logoGmail, alt: 'Logo Gmail', label: 'dny.velasquez@gmail.com', href: 'mailto:dny.velasquez@gmail.com' },
+];
+
+const skills = [
+  { logo: logoGoogleSites, alt: 'Logo Google Sites', label: 'IT engineer' },
+  { logo: logoJavascript, alt: 'Logo Javascript', label: 'Javascript' },
+  { logo: logoHtml, alt: 'Logo HTML', label: 'HTML' },
+  { logo: logoCss, alt: 'Logo CSS', label: 'CSS' },
+  { logo: logoReact, alt: 'Logo React.JS', label: 'React.JS' },
+  { logo: logoPython, alt: 'Logo Python', label: 'Python' },
+];
+
 const Home = () => {
 
     return (
       <Layout>
-        <main className="bg-slate-400 w-full h-full">
-            <div className="flex flex-col-reverse items-center sm:flex-row">
-                <div className="flex flex-col items-center h-full w-full">
-                    <h2 className="font-bold text-6xl text-slate-200 text-center px-8">
+        <main className="w-full h-full bg-gradient-to-b from-slate-700 to-slate-900">
+            <section className="flex flex-col-reverse items-center sm:flex-row sm:justify-center gap-6 py-16 px-8">
+                <div className="flex flex-col items-center sm:items-start h-full w-full sm:max-w-xl">
+                    <h2 className="font-bold text-5xl sm:text-6xl text-white text-center sm:text-left">
                         Daniel Velásquez
                     </h2>
-                    <h3 className="font-bold text-4xl text-slate-300 text-center">
+                    <h3 className="font-semibold text-2xl sm:text-3xl text-cyan-400 text-center sm:text-left mt-2">
                         Frontend Developer
                     </h3>
                 </div>
-                <figure className="my-10 mr-0 sm:mr-20">
-                    <img 
-                        src={foto1} 
+                <figure className="my-6">
+                    <img
+                        src={foto1}
                         alt="Foto de Daniel Velásquez"
-                        className="h-full w-40 rounded-full border-2 border-separate shadow-md"
+                        className="h-40 w-40 rounded-full border-4 border-cyan-400 shadow-lg object-cover"
                     />
                 </figure>
-            </div>
-            <div className="flex flex-col sm:flex-row sm:justify-around sm:items-start items-center m-10">
-                <div className="flex flex-col sm:w-1/4 w-full mb-4">
-                    <h3 className="font-bold text-2xl text-center sm:text-left mb-4">Projects</h3>
-                    <a 
-                        className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/nfl-predictor/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        NFL Predictor
-                    </a>
-                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        Recreational sports betting platform for football. Made with Angular and SupaBase conection.
-                    </p>
-                    <a 
-                        className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/fifa-predictor/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        FIFA Predictor
-                    </a>
-                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        Recreational sports betting platform for football. Made with Angular and SupaBase conection.
-                    </p>
-                    <a 
-                        className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/CMTS-Scripter/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        CMTS-Scripter
-                    </a>
-                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        Platform to generate configuration scripts for diferents brands of CMTS. Made with React.JS, Vite and TailwinCSS
-                    </p>
-                    <a 
-                        className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/dv-shopp/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        DV-Shopp (ecomerce)
-                    </a>
-                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        Ecomerce platform simulator. Made with React.JS, Vite and TailwinCSS
-                    </p>
+            </section>
+
+            <div className="flex flex-col sm:flex-row sm:justify-around sm:items-start items-center gap-10 mx-auto max-w-6xl px-8 pb-16">
+                <div className="flex flex-col sm:w-1/3 w-full gap-4">
+                    <h3 className="font-bold text-2xl text-white text-center sm:text-left">Projects</h3>
+                    {projects.map(({ name, url, description }) => (
+                        <a
+                            key={name}
+                            href={url}
+                            target="_blank" rel="noopener noreferrer"
+                            className="block rounded-lg bg-slate-800/60 hover:bg-slate-800 border border-slate-700 hover:border-cyan-400 transition-colors p-4"
+                        >
+                            <p className="font-semibold text-cyan-400">{name}</p>
+                            <p className="text-slate-300 text-sm mt-1">{description}</p>
+                        </a>
+                    ))}
                 </div>
-                <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
-                    <h3 className="font-bold text-2xl mb-4">Contact</h3>                    
-                    <a 
-                        className="pl-4 font-semibold flex  self-center sm:self-start" 
-                        href="https://github.com/dnyvelasquez"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoGithub} 
-                            alt="Logo Github" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        @dnyvelasquez
-                    </a>
-                    <a 
-                        className="pl-4 font-semibold flex  self-center sm:self-start" 
-                        href="https://linkedin.com/in/daniel-velasquez-7a19bb1b8"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoLinkedIn} 
-                            alt="Logo LinkedIn" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        daniel-velasquez-7a19bb1b8
-                    </a>
-                    <a 
-                        className="pl-4 font-semibold flex  self-center sm:self-start" 
-                        href="https://intagram.com/dny.velasquez"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoInstagram} 
-                            alt="Logo Instagram" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        @dny.velasquez
-                    </a>
-                    <a 
-                        className="pl-4 font-semibold flex  self-center sm:self-start" 
-                        href="https://facebook.com/dannyelhito"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoFacebook} 
-                            alt="Logo Facebook" 
-                            className="h-6 w-6 mr-1 text-center"
-                        />
-                        @dannyelhito
-                    </a>
-                    <a 
-                        className="pl-4 font-semibold flex self-center sm:self-start" 
-                        href="/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoPhone} 
-                            alt="Logo Phone" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        +57 3004439348
-                    </a>
-                    <a 
-                        className="pl-4 font-semibold flex self-center sm:self-start" 
-                        href="mailto:dny.velasquez@gmail.com"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        <img 
-                            src={logoGmail} 
-                            alt="Logo Gmail" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        dny.velasquez@gmail.com
-                    </a>
+
+                <div className="flex flex-col sm:w-1/3 w-full gap-3 items-center sm:items-start">
+                    <h3 className="font-bold text-2xl text-white text-center sm:text-left mb-1">Contact</h3>
+                    {contacts.map(({ logo, alt, label, href }) => (
+                        <a
+                            key={label}
+                            href={href}
+                            target="_blank" rel="noopener noreferrer"
+                            className="font-medium flex items-center gap-2 text-slate-200 hover:text-cyan-400 transition-colors"
+                        >
+                            <img src={logo} alt={alt} className="h-6 w-6" />
+                            {label}
+                        </a>
+                    ))}
                 </div>
-                <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
-                    <h3 className="font-bold text-2xl mb-4">About</h3>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoGoogleSites} 
-                            alt="Logo Google Sites" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        IT engineer
-                    </p>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoJavascript} 
-                            alt="Logo Javascript" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        Javascript
-                    </p>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoHtml} 
-                            alt="Logo HTML" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        HTML
-                    </p>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoCss} 
-                            alt="Logo CSS" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        CSS
-                    </p>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoReact} 
-                            alt="Logo React.JS" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        React.JS
-                    </p>
-                    <p className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoPython} 
-                            alt="Logo Python" 
-                            className="h-6 w-6 mr-1"
-                        />
-                        Python
-                    </p>
-                    <Link to={'/courses'} className="pl-4 font-semibold flex self-center sm:self-start">
-                        <img 
-                            src={logoGoogleSites} 
-                            alt="Logo Google Sites" 
-                            className="h-6 w-6 mr-1"
-                        />
+
+                <div className="flex flex-col sm:w-1/3 w-full gap-3 items-center sm:items-start">
+                    <h3 className="font-bold text-2xl text-white text-center sm:text-left mb-1">About</h3>
+                    {skills.map(({ logo, alt, label }) => (
+                        <p key={label} className="font-medium flex items-center gap-2 text-slate-200">
+                            <img src={logo} alt={alt} className="h-6 w-6" />
+                            {label}
+                        </p>
+                    ))}
+                    <Link
+                        to={'/courses'}
+                        className="font-medium flex items-center gap-2 text-slate-200 hover:text-cyan-400 transition-colors"
+                    >
+                        <img src={logoGoogleSites} alt="Logo Google Sites" className="h-6 w-6" />
                         View development courses
                     </Link>
                 </div>
@@ -219,6 +130,5 @@ const Home = () => {
       </Layout>
     )
   }
-  
+
   export default Home;
-  

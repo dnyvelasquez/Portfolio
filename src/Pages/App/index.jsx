@@ -17,7 +17,7 @@ function App() {
 
   return (
     <ContextProvider>
-      <BrowserRouter basename="/Portfolio">
+      <BrowserRouter basename={import.meta.env.PROD ? '/Portfolio' : '/'}>
         <NavBar />
         <AppRoutes />
       </BrowserRouter>
