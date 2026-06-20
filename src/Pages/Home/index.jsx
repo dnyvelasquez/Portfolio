@@ -11,12 +11,18 @@ import logoPython from '../../Assets/icons8-python.svg';
 import logoCss from '../../Assets/icons8-css.svg';
 import logoHtml from '../../Assets/icons8-html.svg';
 import logoJavascript from '../../Assets/icons8-javascript.svg';
+import logoTypescript from '../../Assets/icons8-typescript.svg';
 import logoAngular from '../../Assets/icons8-angular.svg';
 import logoClaude from '../../Assets/icons8-claude.svg';
 import logoGoogleSites from '../../Assets/icons8-google-sites.svg';
 import logoLinkedIn from '../../Assets/icons8-linkedin.svg';
 
 const projects = [
+  {
+    name: 'Bot Reports',
+    url: 'https://bot-reports.vercel.app/',
+    description: 'Centralized dashboard for trading bot performance, with filters by account, bot, asset and period. Made with Next.js and Neon PostgreSQL.',
+  },
   {
     name: 'NFL Predictor',
     url: 'https://dnyvelasquez.github.io/nfl-predictor/',
@@ -51,6 +57,7 @@ const contacts = [
 const skills = [
   { logo: logoGoogleSites, alt: 'Logo Google Sites', label: 'IT engineer' },
   { logo: logoJavascript, alt: 'Logo Javascript', label: 'Javascript' },
+  { logo: logoTypescript, alt: 'Logo Typescript', label: 'Typescript' },
   { logo: logoHtml, alt: 'Logo HTML', label: 'HTML' },
   { logo: logoCss, alt: 'Logo CSS', label: 'CSS' },
   { logo: logoReact, alt: 'Logo React.JS', label: 'React.JS' },
