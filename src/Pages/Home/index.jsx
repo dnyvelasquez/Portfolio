@@ -11,6 +11,8 @@ import logoPython from '../../Assets/icons8-python.svg';
 import logoCss from '../../Assets/icons8-css.svg';
 import logoHtml from '../../Assets/icons8-html.svg';
 import logoJavascript from '../../Assets/icons8-javascript.svg';
+import logoAngular from '../../Assets/icons8-angular.svg';
+import logoClaude from '../../Assets/icons8-claude.svg';
 import logoGoogleSites from '../../Assets/icons8-google-sites.svg';
 import logoLinkedIn from '../../Assets/icons8-linkedin.svg';
 
@@ -52,7 +54,9 @@ const skills = [
   { logo: logoHtml, alt: 'Logo HTML', label: 'HTML' },
   { logo: logoCss, alt: 'Logo CSS', label: 'CSS' },
   { logo: logoReact, alt: 'Logo React.JS', label: 'React.JS' },
+  { logo: logoAngular, alt: 'Logo Angular', label: 'Angular' },
   { logo: logoPython, alt: 'Logo Python', label: 'Python' },
+  { logo: logoClaude, alt: 'Logo Claude', label: 'Claude' },
 ];
 
 const Home = () => {
