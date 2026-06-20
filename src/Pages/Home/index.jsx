@@ -18,29 +18,29 @@ const projects = [
   {
     name: 'NFL Predictor',
     url: 'https://dnyvelasquez.github.io/nfl-predictor/',
-    description: 'Recreational sports betting platform for football. Made with Angular and SupaBase conection.',
+    description: 'Recreational betting platform for American football. Made with Angular and a Supabase connection.',
   },
   {
     name: 'FIFA Predictor',
     url: 'https://dnyvelasquez.github.io/fifa-predictor/',
-    description: 'Recreational sports betting platform for football. Made with Angular and SupaBase conection.',
+    description: 'Recreational betting platform for soccer. Made with Angular and a Supabase connection.',
   },
   {
     name: 'CMTS-Scripter',
     url: 'https://dnyvelasquez.github.io/CMTS-Scripter/',
-    description: 'Platform to generate configuration scripts for diferents brands of CMTS. Made with React.JS, Vite and TailwinCSS',
+    description: 'Platform to generate configuration scripts for different CMTS brands. Made with React.JS, Vite and TailwindCSS.',
   },
   {
-    name: 'DV-Shopp (ecomerce)',
+    name: 'DV-Shopp (ecommerce)',
     url: 'https://dnyvelasquez.github.io/dv-shopp/',
-    description: 'Ecomerce platform simulator. Made with React.JS, Vite and TailwinCSS',
+    description: 'Ecommerce platform simulator. Made with React.JS, Vite and TailwindCSS.',
   },
 ];
 
 const contacts = [
   { logo: logoGithub, alt: 'Logo Github', label: '@dnyvelasquez', href: 'https://github.com/dnyvelasquez' },
   { logo: logoLinkedIn, alt: 'Logo LinkedIn', label: 'daniel-velasquez-7a19bb1b8', href: 'https://linkedin.com/in/daniel-velasquez-7a19bb1b8' },
-  { logo: logoInstagram, alt: 'Logo Instagram', label: '@dny.velasquez', href: 'https://intagram.com/dny.velasquez' },
+  { logo: logoInstagram, alt: 'Logo Instagram', label: '@dny.velasquez', href: 'https://instagram.com/dny.velasquez' },
   { logo: logoFacebook, alt: 'Logo Facebook', label: '@dannyelhito', href: 'https://facebook.com/dannyelhito' },
   { logo: logoPhone, alt: 'Logo Phone', label: '+57 3004439348', href: 'tel:+573004439348' },
   { logo: logoGmail, alt: 'Logo Gmail', label: 'dny.velasquez@gmail.com', href: 'mailto:dny.velasquez@gmail.com' },

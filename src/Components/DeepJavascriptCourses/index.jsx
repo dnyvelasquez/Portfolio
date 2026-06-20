@@ -26,14 +26,14 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Animaciones con CSS práctico - Practic animations with CSS"
+                  "Animaciones con CSS práctico - Practical animations with CSS"
                 );
                 context.setDiplomaImage("animaciones-css-practico.png");
               }}
             >
               Animaciones con CSS práctico *
             </p>
-            <p className="pl-2 font-semibold text-sm">Practic animations with CSS</p>
+            <p className="pl-2 font-semibold text-sm">Practical animations with CSS</p>
           </li>
           <li>
             <p
@@ -56,14 +56,14 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "API REST con Javascript práctico - Practic API REST with Javascript"
+                  "API REST con Javascript práctico - Practical API REST with Javascript"
                 );
                 context.setDiplomaImage("javascript-api-rest-practico.png");
               }}
             >
               API REST con Javascript práctico *
             </p>
-            <p className="pl-2 font-semibold text-sm">Practic API REST with Javascript</p>
+            <p className="pl-2 font-semibold text-sm">Practical API REST with Javascript</p>
           </li>
           <li>
             <p
@@ -101,14 +101,14 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Asincronismo con Javascript - Asyncronism with Javascript"
+                  "Asincronismo con Javascript - Asynchronism with Javascript"
                 );
                 context.setDiplomaImage("asincronismo-javascript.png");
               }}
             >
               Asincronismo con Javascript *
             </p>
-            <p className="pl-2 font-semibold text-sm">Asyncronism with Javascript</p>
+            <p className="pl-2 font-semibold text-sm">Asynchronism with Javascript</p>
           </li>
           <li>
             <p
@@ -264,14 +264,14 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Javascript práctico - Practic Javascript"
+                  "Javascript práctico - Practical Javascript"
                 );
                 context.setDiplomaImage("javascript-practico.png");
               }}
             >
               Javascript práctico *
             </p>
-            <p className="pl-2 font-semibold text-sm">Practic Javascript</p>
+            <p className="pl-2 font-semibold text-sm">Practical Javascript</p>
           </li>
           <li>
             <p
@@ -279,7 +279,7 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Javascript: Matemáticas y estadística - Javascript: Math and estadistics"
+                  "Javascript: Matemáticas y estadística - Javascript: Math and statistics"
                 );
                 context.setDiplomaImage(
                   "matematicas-estadistica-javascript.png"
@@ -288,7 +288,7 @@ const DeepHtmlCssCourses = () => {
             >
               Javascript: Matemáticas y estadística *
             </p>
-            <p className="pl-2 font-semibold text-sm">Javascript: Math and estadistics</p>
+            <p className="pl-2 font-semibold text-sm">Javascript: Math and statistics</p>
           </li>
           <li>
             <p
@@ -296,14 +296,14 @@ const DeepHtmlCssCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Programación orientada a objetos - Oriented Objects Programation"
+                  "Programación orientada a objetos - Object-Oriented Programming"
                 );
                 context.setDiplomaImage("programacion-orientada-objetos.png");
               }}
             >
               Programación orientada a objetos *
             </p>
-            <p className="pl-2 font-semibold text-sm">Oriented Objects Programming</p>
+            <p className="pl-2 font-semibold text-sm">Object-Oriented Programming</p>
           </li>
         </ul>
       </div>

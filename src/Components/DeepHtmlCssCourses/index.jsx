@@ -112,14 +112,14 @@ const DeepJavascriptCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Frontend developer práctico - Practic frontend developer"
+                  "Frontend developer práctico - Practical frontend developer"
                 );
                 context.setDiplomaImage("forntend-developer-practic.png");
               }}
             >
               Frontend developer práctico *
             </p>
-            <p className="pl-2 font-semibold text-sm">Practic frontend developer</p>
+            <p className="pl-2 font-semibold text-sm">Practical frontend developer</p>
           </li>
           <li>
             <p
@@ -142,14 +142,14 @@ const DeepJavascriptCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Práctico de HTML y CSS - Practic HTML and CSS"
+                  "Práctico de HTML y CSS - Practical HTML and CSS"
                 );
                 context.setDiplomaImage("practico-html-css.png");
               }}
             >
               Práctico de HTML y CSS *
             </p>
-            <p className="pl-2 font-semibold text-sm">Practic HTML and CSS</p>
+            <p className="pl-2 font-semibold text-sm">Practical HTML and CSS</p>
           </li>
           <li>
             <p
@@ -157,27 +157,27 @@ const DeepJavascriptCourses = () => {
               onClick={() => {
                 context.openModalDiploma();
                 context.setDiplomaName(
-                  "Maquetación mobile first - Mobile first maketation"
+                  "Maquetación mobile first - Mobile-first layout"
                 );
                 context.setDiplomaImage("maquetacion-mobile-first.png");
               }}
             >
               Maquetación mobile first *
             </p>
-            <p className="pl-2 font-semibold text-sm">Mobile first maketation</p>
+            <p className="pl-2 font-semibold text-sm">Mobile-first layout</p>
           </li>
           <li>
             <p
               className="cursor-pointer"
               onClick={() => {
                 context.openModalDiploma();
-                context.setDiplomaName("Maquetación CSS - CSS maketation");
+                context.setDiplomaName("Maquetación CSS - CSS layout");
                 context.setDiplomaImage("maquetacion-css-practico.png");
               }}
             >
               Maquetación CSS *
             </p>
-            <p className="pl-2 font-semibold text-sm">CSS maketation</p>
+            <p className="pl-2 font-semibold text-sm">CSS layout</p>
           </li>
           <li>
             <p
