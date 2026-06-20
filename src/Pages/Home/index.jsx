@@ -7,6 +7,7 @@ import logoFacebook from '../../Assets/icons8-facebook.svg';
 import logoPhone from '../../Assets/icons8-Phone.svg';
 import logoGmail from '../../Assets/icons8-Gmail.svg';
 import logoReact from '../../Assets/icons8-React.svg';
+import logoPython from '../../Assets/icons8-Python.svg';
 import logoCss from '../../Assets/icons8-css.svg';
 import logoHtml from '../../Assets/icons8-html.svg';
 import logoJavascript from '../../Assets/icons8-javascript.svg';
@@ -40,13 +41,23 @@ const Home = () => {
                     <h3 className="font-bold text-2xl text-center sm:text-left mb-4">Projects</h3>
                     <a 
                         className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/babyyoda/"
+                        href="https://dnyvelasquez.github.io/nfl-predictor/"
                         target="_blank" rel="noopener noreferrer"
                     >
-                        Baby Yoda Game
+                        NFL Predictor
                     </a>
                     <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        A game made with pure CSS
+                        Recreational sports betting platform for football. Made with Angular and SupaBase conection.
+                    </p>
+                    <a 
+                        className="pl-4 font-semibold text-center sm:text-left" 
+                        href="https://dnyvelasquez.github.io/fifa-predictor/"
+                        target="_blank" rel="noopener noreferrer"
+                    >
+                        FIFA Predictor
+                    </a>
+                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
+                        Recreational sports betting platform for football. Made with Angular and SupaBase conection.
                     </p>
                     <a 
                         className="pl-4 font-semibold text-center sm:text-left" 
@@ -56,7 +67,7 @@ const Home = () => {
                         CMTS-Scripter
                     </a>
                     <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        A project made with React.JS, Vite and TailwinCSS
+                        Platform to generate configuration scripts for diferents brands of CMTS. Made with React.JS, Vite and TailwinCSS
                     </p>
                     <a 
                         className="pl-4 font-semibold text-center sm:text-left" 
@@ -66,17 +77,7 @@ const Home = () => {
                         DV-Shopp (ecomerce)
                     </a>
                     <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        A project made with React.JS, Vite and TailwinCSS
-                    </p>
-                    <a 
-                        className="pl-4 font-semibold text-center sm:text-left" 
-                        href="https://dnyvelasquez.github.io/todomachine/"
-                        target="_blank" rel="noopener noreferrer"
-                    >
-                        TODO Machine
-                    </a>
-                    <p className='pl-4 text-slate-100 ml-4 text-sm text-center sm:text-left'>
-                        A project made with React.JS (React hooks, Render hooks Custom hooks and others)
+                        Ecomerce platform simulator. Made with React.JS, Vite and TailwinCSS
                     </p>
                 </div>
                 <div className="flex flex-col sm:w-1/4 w-full mb-4 text-center sm:text-left">
@@ -195,6 +196,14 @@ const Home = () => {
                             className="h-6 w-6 mr-1"
                         />
                         React.JS
+                    </p>
+                    <p className="pl-4 font-semibold flex self-center sm:self-start">
+                        <img 
+                            src={logoPython} 
+                            alt="Logo Python" 
+                            className="h-6 w-6 mr-1"
+                        />
+                        Python
                     </p>
                     <Link to={'/Portfolio/courses'} className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
