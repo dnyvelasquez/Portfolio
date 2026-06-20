@@ -66,7 +66,7 @@ const Home = () => {
                         Daniel Velásquez
                     </h2>
                     <h3 className="font-semibold text-2xl sm:text-3xl text-cyan-400 text-center sm:text-left mt-2">
-                        Frontend Developer
+                        Systems Engineer / Developer
                     </h3>
                 </div>
                 <figure className="my-6">
