@@ -205,7 +205,7 @@ const Home = () => {
                         />
                         Python
                     </p>
-                    <Link to={'/Portfolio/courses'} className="pl-4 font-semibold flex self-center sm:self-start">
+                    <Link to={'/courses'} className="pl-4 font-semibold flex self-center sm:self-start">
                         <img 
                             src={logoGoogleSites} 
                             alt="Logo Google Sites" 

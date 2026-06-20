@@ -8,8 +8,7 @@ import './index.css';
 const AppRoutes = () => {
   let routes = useRoutes([
     {path: '/', element: <Home />},
-    {path: '/Portfolio/', element: <Home />},
-    {path: '/Portfolio/courses', element: <Courses />},
+    {path: '/courses', element: <Courses />},
   ]);
   return routes;
 }
@@ -18,9 +17,9 @@ function App() {
 
   return (
     <ContextProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
         <NavBar />
-        <AppRoutes />        
+        <AppRoutes />
       </BrowserRouter>
     </ContextProvider>
 

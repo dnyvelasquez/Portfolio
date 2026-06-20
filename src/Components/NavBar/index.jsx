@@ -9,7 +9,7 @@ const NavBar = () => {
                 <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
                 <ul className="flex items-center gap-3">
                     <li className="font-semibold text-lg">
-                        <NavLink to={'/Portfolio/'}>
+                        <NavLink to={'/'}>
                             <h1>Daniel Velásquez</h1> 
                         </NavLink>
                     </li>
